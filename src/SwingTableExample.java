@@ -2,6 +2,8 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.*;
+
 
 public class SwingTableExample extends JFrame {
     private DefaultTableModel tableModel;
@@ -67,9 +69,8 @@ public class SwingTableExample extends JFrame {
         textFieldAge.setText("");
     }
 
-    public class Main {
-        public static void main(String[] args) {
-            SwingTableExample example = new SwingTableExample();
-            example.setVisible(true);
+    public static void main(String[] args) {
+        SwingTableExample example = new SwingTableExample();
+        example.setVisible(true);
     }
 }
