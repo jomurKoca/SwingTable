@@ -59,7 +59,7 @@ public class SwingTableExample extends JFrame {
 
         // line for data
         String[] rowData = {name, age};
-        // Satırı tabloya ekle
+        // add the line to Table
         tableModel.addRow(rowData);
 
         // clean data input bereich
@@ -71,7 +71,5 @@ public class SwingTableExample extends JFrame {
         public static void main(String[] args) {
             SwingTableExample example = new SwingTableExample();
             example.setVisible(true);
-            System.out.println("Hello world!");
-        }
     }
 }
